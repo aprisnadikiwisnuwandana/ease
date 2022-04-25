@@ -1,0 +1,32 @@
+ul .home .nav-link {
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: black !important;
+    opacity: 1;
+}
+
+ul .btn-primary {
+    border-radius: 10px;
+    background-color: #458FF6;
+    color: #ffff !important; 
+}
+
+ul .service .nav-link {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+    opacity: 0.5;
+}
+
+ul .login .nav-link {
+    padding: 10px 30px 10px 30px !important;
+}
