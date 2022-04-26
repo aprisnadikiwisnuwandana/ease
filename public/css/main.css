@@ -14,7 +14,7 @@ ul .home .nav-link {
 ul .btn-primary {
     border-radius: 10px;
     background-color: #458FF6;
-    color: #ffff !important; 
+    color: #ffff !important;
 }
 
 ul .service .nav-link {
@@ -40,4 +40,115 @@ ul .login .nav-link {
     font-family: 'Mulish', sans-serif;
     color: #000000;
     font-weight: 700 !important;
+    font-size: 48px;
+}
+
+.hero p {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300 !important;
+    font-size: 22.8545px;
+    margin-bottom: 75px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+
+.hero button {
+    background: #458FF6;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffff;
+    padding: 2px 50px 2px 50px !important;
+}
+
+.service {
+    margin-top: 192px;
+}
+
+
+.service h1 {
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-weight: 700 !important;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.service p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.service .card {
+    background: #FFFFFF;
+/* drop shadow */
+
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: none !important;
+    margin-top: 100px;
+    padding: 47px 45px 47px 39px !important;
+    z-index: 100;
+}
+
+.service .card img {
+    margin-bottom: 22.41px;
+}
+
+
+.service .card h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height, or 233% */
+
+
+    color: #000000;
+}
+
+.service .card p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #7D7987;
+}
+
+.service .awan {
+    position: absolute;
+    width: 985.37px;
+    height: 839px;
+    left: -246.39px;
+    top: 965px;
+}
+
+.service button {
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    background-color: transparent;
+    padding: 3px 51px 3px 51px !important;
+    margin-top: 83px;
+
+    color: #458FF6;
 }

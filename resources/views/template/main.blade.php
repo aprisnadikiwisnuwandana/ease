@@ -16,7 +16,7 @@
   </head>
   <body>
 
-  <nav class="navbar container py-3  navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar container py-3  navbar-expand-lg navbar-light bg-transparent">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,8 +37,23 @@
     </div>
   </div>
 </nav>
-    
+
     @yield('content')
+
+
+<footer style="background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h4><img src="images/ease.png" alt=""> <span>Ease</span> </h4>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</footer>
 
 
         <!-- Optional JavaScript; choose one of the two! -->
