@@ -36,6 +36,10 @@ ul .login .nav-link {
     padding: 10px 30px 10px 30px !important;
 }
 
+.hero {
+    margin-bottom: 190px;
+}
+
 .hero h1 {
     font-family: 'Mulish', sans-serif;
     color: #000000;
@@ -66,7 +70,6 @@ ul .login .nav-link {
 }
 
 .service {
-    margin-top: 192px;
 }
 
 
@@ -133,7 +136,7 @@ ul .login .nav-link {
     width: 985.37px;
     height: 839px;
     left: -246.39px;
-    top: 965px;
+    top: 800px;
 }
 
 .service button {
@@ -149,6 +152,31 @@ ul .login .nav-link {
     background-color: transparent;
     padding: 3px 51px 3px 51px !important;
     margin-top: 83px;
+    margin-bottom: 94px;
 
     color: #458FF6;
+}
+
+footer {
+    font-family: 'Mulish';
+    padding-top: 124px;
+    padding-bottom: 109px;
+}
+
+footer .logo {
+    margin-right: 190px;
+    padding-left: 120px;
+}
+
+footer h4
+{
+    font-size: 24px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 18px;
 }

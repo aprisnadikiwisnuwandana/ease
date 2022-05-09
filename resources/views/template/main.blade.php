@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet" >
+    @yield('css')
 
     <title>Hello, world!</title>
   </head>
@@ -30,9 +31,11 @@
         <li class="nav-item service">
           <a class="nav-link px-0 pe-md-5" href="#">Our Services <img src="/images/Vector.png" alt=""> </a>
         </li>
-        <li class="nav-item text-white login">
-          <a class="btn-primary nav-link disabled">Login/Sign Up</a>
-        </li>
+        <a href="">
+            <li class="nav-item text-white login">
+            <p class="btn-primary nav-link disabled">Login/Sign Up</p>
+          </li></a>
+
       </ul>
     </div>
   </div>
@@ -43,14 +46,35 @@
 
 <footer style="background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 ">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h4><img src="images/ease.png" alt=""> <span>Ease</span> </h4>
+    <div class="container-fluid">
+        <div class="row text-white justify-content-center">
+            <div class="col-4 mr-5 logo">
+                <h4 class="mb-4"><img src="images/ease.png" alt=""> <span>Ease</span> </h4>
+                <p class="mb-5">Ease provides a convinient and practical
+                    services for your mental health problems</p>
+                <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
             </div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div class="col-2">
+                <h5 class="mb-4">Company</h5>
+                <p>About</p>
+                <p>Testimonials</p>
+                <p>Find a doctor</p>
+                <p>Apps</p>
+            </div>
+            <div class="col-2">
+                <h5 class="mb-4">Region</h5>
+                <p>Indonesia</p>
+                <p>Singapore</p>
+                <p>Hongkong</p>
+                <p>Canada</p>
+            </div>
+            <div class="col-2">
+                <h5 class="mb-4">Help</h5>
+                <p>Help center</p>
+                <p>Contact support</p>
+                <p>Instructions</p>
+                <p>How it works</p>
+            </div>
         </div>
     </div>
 </footer>

@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('landingPage');
 });
 
+Route::get('/consulting', function () {
+    return view('consulting');
+});
 

@@ -26,14 +26,16 @@
         </div>
         <div class="row mt-5">
             <div class="col">
-              <div class="card">
-                <div class="card-body">
-                  <img src="images/Consulting.png" alt="">
-                  <h5 class="card-title">Consulting</h5>
-                  <p class="card-text">Consult your mental health problems with our best psychologist</p>
+                <a href="/consulting" style="text-decoration: none">
+                    <div class="card">
+                        <div class="card-body">
+                          <img src="images/Consulting.png" alt="">
+                          <h5 class="card-title">Consulting</h5>
+                          <p class="card-text">Consult your mental health problems with our best psychologist</p>
 
-                </div>
-              </div>
+                        </div>
+                      </div>
+                </a>
             </div>
             <div class="col">
               <div class="card">
