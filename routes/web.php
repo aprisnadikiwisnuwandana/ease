@@ -19,3 +19,7 @@ Route::get('/consulting', function () {
     return view('consulting');
 });
 
+Route::get('/consulting-2', function () {
+    return view('consulting-2');
+});
+

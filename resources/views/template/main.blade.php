@@ -15,9 +15,9 @@
 
     <title>Hello, world!</title>
   </head>
-  <body>
+  <body class="mx-0">
 
-  <nav class="navbar container py-3  navbar-expand-lg navbar-light bg-transparent">
+  <nav class="navbar container-fluid py-3 mx-0 navbar-expand-lg navbar-light  fixed-top bg-white px-5" >
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,32 +48,31 @@
 ">
     <div class="container-fluid">
         <div class="row text-white justify-content-center">
-            <div class="col-4 mr-5 logo">
+            <div class="col mr-5 logo">
                 <h4 class="mb-4"><img src="images/ease.png" alt=""> <span>Ease</span> </h4>
-                <p class="mb-5">Ease provides a convinient and practical
-                    services for your mental health problems</p>
-                <p>©Trafalgar PTY LTD 2020. All rights reserved</p>
+                <p>©Group 6 RBPL B 2022. All rights reserved</p>
             </div>
-            <div class="col-2">
-                <h5 class="mb-4">Company</h5>
-                <p>About</p>
-                <p>Testimonials</p>
-                <p>Find a doctor</p>
-                <p>Apps</p>
+            <div class="col">
+                <h5 class="mb-4">QUICK NAVIGATION</h5>
+                <p>Home</p>
+                <p>Our Services</p>
+                <p>Login/Sign Up</p>
             </div>
-            <div class="col-2">
-                <h5 class="mb-4">Region</h5>
-                <p>Indonesia</p>
-                <p>Singapore</p>
-                <p>Hongkong</p>
-                <p>Canada</p>
+            <div class="col">
+                <h5 class="mb-4">OUR SERVICES</h5>
+                <p>Consulting</p>
+                <p>Journaling</p>
+                <p>Meditation</p>
             </div>
-            <div class="col-2">
-                <h5 class="mb-4">Help</h5>
-                <p>Help center</p>
-                <p>Contact support</p>
-                <p>Instructions</p>
-                <p>How it works</p>
+            <div class="col">
+                <h5 class="mb-4">CONTACT</h5>
+                <p>aprisnadiki@gmail.com</p>
+                <p>jihaanharvi@gmail.com</p>
+                <p>laura</p>
+                <p>Kezia</p>
+                <p>Aqsha
+                    
+                </p>
             </div>
         </div>
     </div>

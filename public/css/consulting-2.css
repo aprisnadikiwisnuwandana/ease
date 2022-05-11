@@ -1,0 +1,60 @@
+.consulting-2 {
+    margin-top: 208px !important;
+    margin-bottom: 51px;
+
+}
+
+
+.consulting-2 h2 {
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 29px;
+    /* identical to box height, or 117% */
+
+
+    color: #000000;
+}
+
+.consulting-2 h4 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px !important;
+    line-height: 28px;
+    margin-bottom: 57px;
+    /* identical to box height, or 78% */
+
+
+    color: #7D7987;
+}
+
+.consulting-2 p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    /* or 333% */
+
+
+    color: #000000;
+
+}
+
+.consulting-2 button {
+    background-color: transparent !important;
+    width: 600px;
+    height: 77px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 135.5%;
+    border: #458DFC solid 1px !important;
+    /* identical to box height, or 33px */
+
+
+    color: #458DFC;
+
+}

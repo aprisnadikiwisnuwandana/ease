@@ -1,10 +1,11 @@
 body {
     overflow-x: hidden;
+    font-family: 'Mulish';
 }
 
 
 ul .home .nav-link {
-    font-family: 'Mulish', sans-serif;
+
     font-size: 18px;
     font-weight: 700 !important;
     color: black !important;
@@ -18,7 +19,7 @@ ul .btn-primary {
 }
 
 ul .service .nav-link {
-    font-family: 'Mulish', sans-serif;
+
     font-style: normal !important;
     font-weight: 400 !important;
     font-size: 18px;
@@ -32,6 +33,7 @@ ul .service .nav-link {
     opacity: 0.5;
 }
 
+
 ul .login .nav-link {
     padding: 10px 30px 10px 30px !important;
 }
@@ -41,14 +43,14 @@ ul .login .nav-link {
 }
 
 .hero h1 {
-    font-family: 'Mulish', sans-serif;
+
     color: #000000;
     font-weight: 700 !important;
     font-size: 48px;
 }
 
 .hero p {
-    font-family: 'Mulish', sans-serif;
+
     font-weight: 300 !important;
     font-size: 22.8545px;
     margin-bottom: 75px;
@@ -74,7 +76,7 @@ ul .login .nav-link {
 
 
 .service h1 {
-    font-family: 'Mulish', sans-serif;
+
     color: #000000;
     font-weight: 700 !important;
     font-size: 36px;
@@ -82,7 +84,7 @@ ul .login .nav-link {
 }
 
 .service p {
-    font-family: 'Mulish';
+    
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
