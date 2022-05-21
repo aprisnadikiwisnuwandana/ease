@@ -53,25 +53,25 @@
                 <p>©Group 6 RBPL B 2022. All rights reserved</p>
             </div>
             <div class="col">
-                <h5 class="mb-4">QUICK NAVIGATION</h5>
+                <h5 class="mb-4"><b>QUICK NAVIGATION</b></h5>
                 <p>Home</p>
                 <p>Our Services</p>
                 <p>Login/Sign Up</p>
             </div>
             <div class="col">
-                <h5 class="mb-4">OUR SERVICES</h5>
+                <h5 class="mb-4"><b>OUR SERVICES</b></h5>
                 <p>Consulting</p>
                 <p>Journaling</p>
                 <p>Meditation</p>
             </div>
             <div class="col">
-                <h5 class="mb-4">CONTACT</h5>
+                <h5 class="mb-4"><b>CONTACT</b></h5>
                 <p>aprisnadiki@gmail.com</p>
                 <p>jihaanharvi@gmail.com</p>
                 <p>laura</p>
                 <p>Kezia</p>
                 <p>Aqsha
-                    
+
                 </p>
             </div>
         </div>

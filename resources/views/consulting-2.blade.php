@@ -8,7 +8,7 @@
 
 
     <div class="container consulting-2">
-        <div class="row d-flex align-items-center"">
+        <div class="row d-flex align-items-center">
             <div class="col-7">
                 <img src="/images/psycologist-2.png" alt="" >
             </div>
@@ -21,8 +21,9 @@
                      in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                      sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
-                <button>Choose Psychologist</button>
-
+                     <a href="/consulting-3">
+                     <button>Choose Psychologist</button>
+                     </a>
             </div>
         </div>
     </div>

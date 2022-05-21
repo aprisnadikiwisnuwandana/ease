@@ -1,0 +1,61 @@
+.hero2 {
+    padding: 140px 300px 168px 300px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-bottom: 67px;
+}
+
+.hero2 h1 {
+
+    font-size: 96px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.consulting-3 {
+    margin-top: 100px !important;
+    margin-bottom: 51px;
+}
+
+.search .garis {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.search h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color:  #000000;
+    text-align: center;
+}
+
+
+.dropdown button {
+    background: #FFFFFF;
+    border: 1px solid #898A8D;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.dropdown button:hover {
+    background: #FFFFFF;
+    border: 1px solid #898A8D;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.text-center button {
+    font-weight: 700;
+    font-size: 19px;
+    width: 170px;
+    height: 65px;
+
+    /* or 250% */
+
+    color: #FFFFFF;
+
+    margin-top: 90px;
+    background: #46D643;
+    border: 1px solid #46D643;
+    border-radius: 10px;
+}

@@ -60,6 +60,7 @@ ul .login .nav-link {
 
 
 .hero button {
+    border: 1.4px solid #458FF6;
     background: #458FF6;
     border-radius: 55px;
     font-family: 'Mulish';
@@ -84,7 +85,7 @@ ul .login .nav-link {
 }
 
 .service p {
-    
+
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -138,7 +139,7 @@ ul .login .nav-link {
     width: 985.37px;
     height: 839px;
     left: -246.39px;
-    top: 800px;
+    top: 650px;
 }
 
 .service button {

@@ -23,3 +23,10 @@ Route::get('/consulting-2', function () {
     return view('consulting-2');
 });
 
+Route::get('/consulting-3', function () {
+    return view('consulting-3');
+});
+
+Route::get('/consulting-4', function () {
+    return view('consulting-4');
+});

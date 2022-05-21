@@ -1,6 +1,6 @@
 .consulting-2 {
-    margin-top: 208px !important;
-    margin-bottom: 51px;
+    margin-top: 150px !important;
+    margin-bottom: 50px;
 
 }
 
@@ -45,7 +45,7 @@
 
 .consulting-2 button {
     background-color: transparent !important;
-    width: 600px;
+    width: 550px;
     height: 77px;
     font-style: normal;
     font-weight: 600;
@@ -53,6 +53,8 @@
     line-height: 135.5%;
     border: #458DFC solid 1px !important;
     /* identical to box height, or 33px */
+    border: 1px solid #458FF6;
+    border-radius: 8px;
 
 
     color: #458DFC;

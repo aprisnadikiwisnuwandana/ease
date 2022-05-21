@@ -23,7 +23,8 @@
         </div>
     </div>
     <div class="container psycologist">
-        <h2>All Psychologist</h2>
+        <h2><b>All Psychologist</b></h2>
+        <br>
         <div class="row">
             <div class="col">
               <a href="/consulting-2" style="text-decoration: none; color:black">
