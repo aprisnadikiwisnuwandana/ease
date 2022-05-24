@@ -34,11 +34,16 @@
             </button>
             <ul class="dropdown-menu form-control mt-4" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="#">Kendali Emosi</a></li>
-              <li><a class="dropdown-item" href="#">Pekerjaan</a></li>
+             <li><a class="dropdown-item" href="#">Pekerjaan</a></li>
               <li><a class="dropdown-item" href="#">Kecanduan</a></li>
               <li><a class="dropdown-item" href="#">Percintaan</a></li>
               <li><a class="dropdown-item" href="#">Keluarga</a></li>
               <li><a class="dropdown-item" href="#">Pendidikan</a></li>
+              <li><a class="dropdown-item" href="#">Kesepian</a></li>
+              <li><a class="dropdown-item" href="#">Kecemasan</a></li>
+              <li><a class="dropdown-item" href="#">Pertemanan</a></li>
+              <li><a class="dropdown-item" href="#">Sosial</a></li>
+              <li><a class="dropdown-item" href="#">Lainnya</a></li>
             </ul>
           </div>
     </div>
@@ -53,12 +58,13 @@
             <button class="btn btn-secondary text-left form-control dropdown-toggle mb-5" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                 Choose a consulting package
             </button>
-            <ul class="dropdown-menu form-control mt-4" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Super Package</a></li>
-              <li><a class="dropdown-item" href="#">Special Package</a></li>
-              <li><a class="dropdown-item" href="#">Premium Package</a></li>
+            <ul class="dropdown-menu form-control mt-4 " aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Super Package <span>(30 min )</span> <p class="d-block">Rp. 100. 000</p>     </a></li>
+              <li><a class="dropdown-item" href="#">Special Package <span>(30 min )</span> <p class="d-block">Rp. 100. 000</p>     </a></li>
+              <li><a class="dropdown-item" href="#">Premium Package <span>(30 min )</span> <p class="d-block">Rp. 100. 000</p>     </a></li>
             </ul>
           </div>
+          <a href="/consulting-4">
           <div class="text-center">
             <button>Buy Now</button>
         </div>

@@ -30,3 +30,7 @@ Route::get('/consulting-3', function () {
 Route::get('/consulting-4', function () {
     return view('consulting-4');
 });
+
+Route::get('/consulting-5', function () {
+    return view('consulting-5');
+});
