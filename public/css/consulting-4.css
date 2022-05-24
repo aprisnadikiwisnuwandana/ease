@@ -14,3 +14,19 @@
     color:  #000000;
     text-align: center;
 }
+.text-center button {
+    font-weight: 700;
+    font-size: 19px;
+    width: 170px;
+    height: 65px;
+
+    /* or 250% */
+
+    color: #FFFFFF;
+
+    margin-top: 90px;
+    background: #46D643;
+    border: 1px solid #46D643;
+    border-radius: 10px;
+}
+
