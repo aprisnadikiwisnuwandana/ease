@@ -34,3 +34,19 @@ Route::get('/consulting-4', function () {
 Route::get('/consulting-5', function () {
     return view('consulting-5');
 });
+
+Route::get('/journaling', function () {
+    return view('journaling');
+});
+
+Route::get('/journaling-2', function () {
+    return view('journaling-2');
+});
+
+Route::get('/meditation', function () {
+    return view('meditation');
+});
+
+Route::get('/login', function () {
+    return view('login');
+});

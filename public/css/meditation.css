@@ -1,0 +1,44 @@
+.hero2 {
+    padding: 140px 300px 168px 300px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-bottom: 67px;
+}
+
+.hero2 h1 {
+
+    font-size: 96px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.search h2 {
+
+    font-size: 36px;
+    font-weight: 700;
+    color:  #000000;
+    text-align: center;
+}
+
+.search .garis {
+    margin-top: 30px;
+    margin-bottom: 44px;
+}
+
+.meditation {
+    margin-bottom: 136px;
+}
+
+.meditation .card {
+    background: #F3F7FF;
+    padding-top: 17px;
+    padding-left: 15.91px;
+    padding-right: 15.91px;
+    padding-bottom: 28px;
+    border-radius: 10px !important;
+    border: none !important;
+}
