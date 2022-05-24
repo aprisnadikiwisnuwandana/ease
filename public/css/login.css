@@ -1,0 +1,198 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Mulish';
+}
+
+
+ul .home .nav-link {
+
+    font-size: 18px;
+    font-weight: 700 !important;
+    color: black !important;
+    opacity: 1;
+}
+
+ul .btn-primary {
+    border-radius: 10px;
+    background-color: #458FF6;
+    color: #ffff !important;
+}
+
+ul .service .nav-link {
+
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 18px;
+    /* identical to box height */
+
+
+    /* 1f1534-hyfen */
+
+    color: #1F1534;
+
+    opacity: 0.5;
+}
+
+
+ul .login .nav-link {
+    padding: 10px 30px 10px 30px !important;
+}
+
+.hero {
+    margin-bottom: 190px;
+}
+
+.hero h1 {
+
+    color: #000000;
+    font-weight: 700 !important;
+    font-size: 48px;
+}
+
+.hero p {
+
+    font-weight: 300 !important;
+    font-size: 22.8545px;
+    margin-bottom: 75px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+
+.hero button {
+    border: 1.4px solid #458FF6;
+    background: #458FF6;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #ffff;
+    padding: 2px 50px 2px 50px !important;
+}
+
+.hero .google {
+    border: 1.4px solid #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #000000;
+    padding: 2px 50px 2px 50px !important;
+}
+
+.service {
+}
+
+
+.service h1 {
+
+    color: #000000;
+    font-weight: 700 !important;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.service p {
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.service .card {
+    background: #FFFFFF;
+/* drop shadow */
+
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    border: none !important;
+    margin-top: 100px;
+    padding: 47px 45px 47px 39px !important;
+    z-index: 100;
+}
+
+.service .card img {
+    margin-bottom: 22.41px;
+}
+
+
+.service .card h5 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+    /* identical to box height, or 233% */
+
+
+    color: #000000;
+}
+
+.service .card p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+
+    color: #7D7987;
+}
+
+.service .awan {
+    position: absolute;
+    width: 985.37px;
+    height: 839px;
+    left: -246.39px;
+    top: 650px;
+}
+
+.service button {
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    background-color: transparent;
+    padding: 3px 51px 3px 51px !important;
+    margin-top: 83px;
+    margin-bottom: 94px;
+
+    color: #458FF6;
+}
+
+footer {
+    font-family: 'Mulish';
+    padding-top: 124px;
+    padding-bottom: 109px;
+}
+
+footer .logo {
+    margin-right: 190px;
+    padding-left: 120px;
+}
+
+footer h4
+{
+    font-size: 24px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer p {
+    font-size: 18px;
+}

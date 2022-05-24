@@ -60,7 +60,7 @@
             <br>
             <div class="row">
                 <div class="col">
-                  <a href="/" style="text-decoration: none; color:black">
+                  <a href="/journaling-2" style="text-decoration: none; color:black">
                     <div class="card">
                         <img src="/images/template-4.png" alt="">
                         <div class="card-body">

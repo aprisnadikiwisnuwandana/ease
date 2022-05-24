@@ -39,6 +39,14 @@ Route::get('/journaling', function () {
     return view('journaling');
 });
 
+Route::get('/journaling-2', function () {
+    return view('journaling-2');
+});
+
 Route::get('/meditation', function () {
     return view('meditation');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });
