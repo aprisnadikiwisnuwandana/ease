@@ -9,7 +9,7 @@
         <h1>Consulting</h1>
     </div>
 
-    <div class="container">
+    <div class="container">-
         <div class="search d-flex flex-column justify-content-center">
             <h2>Psychologist</h2>
             <div class="d-flex justify-content-center">
