@@ -38,6 +38,7 @@
                 </a>
             </div>
             <div class="col">
+                <a href="/journaling" style="text-decoration: none">
               <div class="card">
                 <div class="card-body">
                   <img src="images/Journaling.png" alt="">
@@ -48,6 +49,7 @@
               </div>
             </div>
             <div class="col">
+                <a href="/meditation" style="text-decoration: none">
                 <div class="card">
                   <div class="card-body">
                     <img src="images/Meditation.png" alt="">

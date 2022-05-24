@@ -69,7 +69,7 @@
                 <p>aprisnadiki@gmail.com</p>
                 <p>jihaanharvi@gmail.com</p>
                 <p>laura</p>
-                <p>Kezia</p>
+                <p>kezia.sdbtr@gmail.com</p>
                 <p>Aqsha
 
                 </p>
