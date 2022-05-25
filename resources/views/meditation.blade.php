@@ -25,20 +25,20 @@
     <div class="container meditation">
         <h2><b>Top Picks</b></h2>
         <br>
-        <div class="row">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col-4">
               <a href="/" style="text-decoration: none; color:black">
                 <div class="card">
                     <img src="/images/meditation-1.png" alt="">
                   </div>
               </a>
             </div>
-            <div class="col">
+            <div class="col-4">
               <div class="card">
                 <img src="/images/meditation-2.png" alt="">
               </div>
             </div>
-            <div class="col">
+            <div class="col-4">
                 <div class="card">
                     <img src="/images/meditation-3.png" alt="">
                 </div>
@@ -49,8 +49,8 @@
         <div class="container meditation">
             <h2><b>Sleep</b></h2>
             <br>
-            <div class="row">
-                <div class="col">
+            <div class="row justify-content-start">
+                <div class="col-4">
                   <a href="/" style="text-decoration: none; color:black">
                     <div class="card">
                         <img src="/images/meditation-4.png" alt="">

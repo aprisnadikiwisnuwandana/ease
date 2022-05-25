@@ -1,7 +1,21 @@
 .title {
-    padding: 140px 300px 168px 300px;
-    background-color: F3F7FF;
-    margin-bottom: 67px;
+    background-color: #F3F7FF;
 }
 
+.hero2 h1{
+    font-size: 36px;
+    font-weight: 700;
+    color:  #000000;
+    text-align: center;
+}
+
+.mulishBold {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #000000;
+
+}
 

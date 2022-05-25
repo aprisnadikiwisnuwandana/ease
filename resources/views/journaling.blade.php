@@ -53,13 +53,12 @@
                 </div>
               </div>
         </div>
-        <br>
-        <br>
+        <br><br>
         <div class="container journaling">
             <h2><b>Your Journal</b></h2>
             <br>
             <div class="row">
-                <div class="col">
+                <div class="col-4">
                   <a href="/journaling-2" style="text-decoration: none; color:black">
                     <div class="card">
                         <img src="/images/template-4.png" alt="">

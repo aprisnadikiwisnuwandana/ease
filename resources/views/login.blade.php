@@ -12,7 +12,8 @@
             </div>
 
             <div class="col-6">
-                <p>Welcome to</p>
+                <br>
+                <h2>Welcome to</h2>
                 <h1>Ease</h1>
                 <center> <button class="google d-flex justify-content-center">Login with Google</button> </center>
                 <center> <p style="color:black;">OR</p> </center>
