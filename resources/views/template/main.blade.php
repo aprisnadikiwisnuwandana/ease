@@ -13,7 +13,7 @@
     <link href="/css/main.css" rel="stylesheet" >
     @yield('css')
 
-    <title>Hello, world!</title>
+    <title>Ease</title>
   </head>
   <body class="mx-0">
 
@@ -71,7 +71,7 @@
                 <h5 class="mb-4"><b>CONTACT</b></h5>
                 <p>aprisnadiki@gmail.com</p>
                 <p>jihaanharvi@gmail.com</p>
-                <p>laura</p>
+                <p>laurawilther@gmail.com</p>
                 <p>kezia.sdbtr@gmail.com</p>
                 <p>Aqsha
 
