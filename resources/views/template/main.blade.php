@@ -9,7 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -24,29 +26,7 @@
 
 <<<<<<< HEAD
 =======
-  <nav class="navbar container-fluid py-3 mx-0 navbar-expand-lg navbar-light  fixed-top bg-white px-5" >
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="/images/logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse " id="navbarNav">
-      <ul class="navbar-nav ms-auto text-center text-left-md ">
-        <li class="nav-item home" style="color: #1F1534;">
-          <a class="nav-link px-0 pe-md-5" href="#">Home</a>
-        </li>
-        <li class="nav-item service">
-          <a class="nav-link px-0 pe-md-5" href="#">Our Services <img src="/images/Vector.png" alt=""> </a>
-        </li>
-        <a href="/login">
-            <li class="nav-item text-white login">
-            <p class="btn-primary nav-link disabled">Login/Sign Up</p>
-          </li></a>
-
-      </ul>
-    </div>
-  </div>
-</nav>
+  @include('component.navbar')
 >>>>>>> e19b1fbcb053df1cae97be3f6b10e92984992b35
 
     @yield('content')

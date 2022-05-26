@@ -14,8 +14,8 @@
             <div class="col-6">
                 <br>
                 <h1>Create Account</h1>
-                <center> <button class="google d-flex justify-content-center">Sign up with Google</button> </center>
-                <center> <p style="color:black;">OR</p> </center>
+                <button style="width: 561px" class="google"> <img  style="width: 32px;" src="/images/google.png" alt=""> <span>Sign up with Google</span> </button> 
+                <p style="color:black;" class="text-center">OR</p> 
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>

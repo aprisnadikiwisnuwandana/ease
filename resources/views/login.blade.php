@@ -15,8 +15,8 @@
                 <br>
                 <h2>Welcome to</h2>
                 <h1>Ease</h1>
-                <center> <button class="google d-flex justify-content-center">Login with Google</button> </center>
-                <center> <p style="color:black;">OR</p> </center>
+                <button style="width: 561px" class="google "> <img  style="width: 32px;" src="/images/google.png" alt=""> <span>Login with Google</span> </button> 
+                <p class="text-center" style="color:black;">OR</p> 
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
@@ -25,8 +25,8 @@
                 </div>
 
                 <br>
-                 <button class="d-flex justify-content-center input-group mb-3">Login</button> </center>
-                 <center> <p>Don’t have an account? <a href="/register"> Sign Up </a></p>
+                 <button class="mb-3">Login</button> 
+                 <p>Don’t have an account? <a href="/register"> Sign Up </a></p>
 
             </div>
 
