@@ -8,7 +8,7 @@
                 <br> for your mental health</h1>
                 <p>Ease provides a convinient and practical <br>
                 services for your mental health problems</p>
-                <button>Start now</button>
+                <button>See Our Services</button>
             </div>
             <div class="col-6 text-end">
                 <img src="/images/illustration.png" width=500 alt="">

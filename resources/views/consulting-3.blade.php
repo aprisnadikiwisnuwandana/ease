@@ -60,8 +60,8 @@
             </button>
             <ul class="dropdown-menu form-control mt-4 " aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="#">Super Package <span>(30 min)</span> <p class="d-block">Rp 100.000</p>     </a></li>
-              <li><a class="dropdown-item" href="#">Special Package <span>(30 min)</span> <p class="d-block">Rp 100.000</p>     </a></li>
-              <li><a class="dropdown-item" href="#">Premium Package <span>(30 min)</span> <p class="d-block">Rp 100.000</p>     </a></li>
+              <li><a class="dropdown-item" href="#">Special Package <span>(45 min)</span> <p class="d-block">Rp 110.000</p>     </a></li>
+              <li><a class="dropdown-item" href="#">Premium Package <span>(60 min)</span> <p class="d-block">Rp 120.000</p>     </a></li>
             </ul>
           </div>
           <a href="/consulting-4">
