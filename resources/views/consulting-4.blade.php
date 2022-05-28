@@ -38,8 +38,9 @@
             </div>
         </div>
         <div class="card my-3">
-            <div class="card-body">
-                <h5>Virtual Account Number <br><span class="d-block fw-bold">7007099912196</span></h5>
+            <div class="row card-body">
+                <h5  class="col-5">Virtual Account Number <br><input id="myInput" class="d-block fw-bold" value="7007099912196 "/></h5>
+                <button onClick="myFunction()" class="col-7">copy</button>
             </div>
         </div>
         <div class="px-3">
@@ -50,7 +51,7 @@
                 </span>
                 <span class="button__text">Add File</span>
             </button>
-            
+
         </div>
         <a href="/consulting-5">
         <div class="text-center">
@@ -59,7 +60,22 @@
     </div>
 </div>
 
+<script>
+function myFunction() {
+    /* Get the text field */
+    var copyText = document.getElementById("myInput");
 
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+     /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+  }
+</script>
 
 
 @endsection
