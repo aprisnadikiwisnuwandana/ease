@@ -11,6 +11,11 @@
 |
 */
 
+use App\Http\Controllers\RegistrationController;
+use App\Http\Controllers\LoginRegistration;
+
+
+
 Route::get('/', function () {
     return view('landingPage');
 });
@@ -54,3 +59,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('register');
 });
+
+Route::post('/register','RegistrationController@store');
+
+Route::post('/login', 'LoginRegistration@authenticate');

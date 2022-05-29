@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\User;
-use Illuminate\Support\Facades\Hash;
-class RegistrationController extends Controller
+use Illuminate\Support\Facades\Auth;
+
+class LoginRegistration extends Controller
+
 {
     /**
      * Display a listing of the resource.
@@ -35,24 +36,17 @@ class RegistrationController extends Controller
      */
     public function store(Request $request)
     {
+        //
+    }
 
-        $validated = $request->validate([
-            'name' => 'required',
-            'email' => 'required',
-            'username' => 'required',
-            'password' => 'required',
-            'passwordConfirmation' => 'required',
-        ]);
+    public function authenticate(Request $request)
+    {
+        $credentials = $request->only('email', 'password');
 
-        $validated['password'] = Hash::make($validated['password']);
-
-        $user = new User();
-
-        $user->fill($validated);
-        $user->save();
-
-
-
+        if (Auth::attempt($credentials)) {
+            // Authentication passed...
+            return redirect()->intended('dashboard');
+        }
     }
 
     /**
