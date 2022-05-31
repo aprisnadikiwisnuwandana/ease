@@ -18,7 +18,7 @@ use App\Http\Controllers\LoginRegistration;
 
 Route::get('/', function () {
     return view('landingPage');
-});
+})->name('landingPage');
 
 Route::get('/consulting', function () {
     return view('consulting');
@@ -63,3 +63,6 @@ Route::get('/register', function () {
 Route::post('/register','RegistrationController@store');
 
 Route::post('/login', 'LoginRegistration@authenticate');
+
+
+Route::get('/logout', 'LoginRegistration@logout');

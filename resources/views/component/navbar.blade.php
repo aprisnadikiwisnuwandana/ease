@@ -12,10 +12,32 @@
           <li class="nav-item service">
             <a class="nav-link px-0 pe-md-5" href="#">Our Services <img src="/images/Vector.png" alt=""> </a>
           </li>
-          <a href="">
-              <li class="nav-item text-white login">
-              <p class="btn-primary nav-link disabled">Login/Sign Up</p>
-            </li></a>
+          @auth
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+
+              {{auth()->user()->name}}
+
+
+
+            </a>
+
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="/logout">Logout</a></li>
+            </ul>
+          </div>
+          @else
+          <a class="btn btn-secondary pt-2" href="/login" >
+
+            Login / Sign Up
+
+
+
+          </a>
+
+          @endauth
+
+
 
         </ul>
       </div>

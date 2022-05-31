@@ -51,6 +51,7 @@ class RegistrationController extends Controller
         $user->fill($validated);
         $user->save();
 
+        return redirect('/login');
 
 
     }

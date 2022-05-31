@@ -7,13 +7,13 @@
 @section('content')
 <div class="container-fluid mulishBold" style="padding-top: 100px">
 <div class="row title justify-content-around align-items-center" style="margin-bottom: 90px">
-    <div class="col-3">
+    <div class="col-3 pt-3">
         <p>Your journal</p>
     </div>
     <div class="col-3 hero2">
         <h1 class="text-center">Journaling</h1>
     </div>
-    <div class="col-3">
+    <div class="col-3 pt-3">
         <p class="text-end">Save</p>
     </div>
 </div>
