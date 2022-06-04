@@ -14,6 +14,8 @@
 use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\LoginRegistration;
+use App\Http\Controllers\MeditationController;
+
 
 
 
@@ -32,6 +34,11 @@ Route::post('/consulting/accept/{id}', [ConsultingController::class, 'acceptCons
 Route::post('/consulting/decline/{id}', [ConsultingController::class, 'declineConsulting'])->middleware('auth');
 
 
+
+
+
+Route::get('/meditation', [MeditationController::class, 'displayMeditationPage']);
+Route::get('/meditation/search', [MeditationController::class, 'searchMeditation']);
 
 
 
