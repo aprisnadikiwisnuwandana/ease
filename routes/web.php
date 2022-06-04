@@ -14,6 +14,7 @@
 use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\LoginRegistration;
+use App\Http\Controllers\JournalingController;
 use App\Http\Controllers\MeditationController;
 
 
@@ -33,9 +34,11 @@ Route::get('/consulting/confirm/{id}', [ConsultingController::class, 'displayCon
 Route::post('/consulting/accept/{id}', [ConsultingController::class, 'acceptConsulting'])->middleware('auth');
 Route::post('/consulting/decline/{id}', [ConsultingController::class, 'declineConsulting'])->middleware('auth');
 
-
-
-
+Route::get('/journaling', [JournalingController::class, 'displayJournalingPage'])->middleware('auth');
+Route::get('/journaling/search', [JournalingController::class, 'searchJournaling'])->middleware('auth');
+Route::get('/journaling/write/{id}', [JournalingController::class, 'writeJournal'])->middleware('auth');
+Route::post('/journaling/submit/{id}', [JournalingController::class, 'submitJournal'])->middleware('auth');
+Route::post('/journaling/update/{id}', [JournalingController::class, 'updateJournal'])->middleware('auth');
 
 Route::get('/meditation', [MeditationController::class, 'displayMeditationPage']);
 Route::get('/meditation/search', [MeditationController::class, 'searchMeditation']);
