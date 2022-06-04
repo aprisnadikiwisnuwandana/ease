@@ -47,6 +47,10 @@ class LoginRegistration extends Controller
             // Authentication passed...
             return redirect()->intended('/');
         }
+
+        else {
+            return redirect('/login');
+        }
     }
 
     public function logout(Request $request) {

@@ -11,8 +11,19 @@
 |
 */
 
+use App\Http\Controllers\ConsultingController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\LoginRegistration;
+
+
+
+
+Route::get('/consulting', [ConsultingController::class, 'displayPsychologistPage'])->middleware('auth');
+Route::get('/consulting/search', [ConsultingController::class, 'searchPsychologist'])->middleware('auth');
+Route::get('/consulting/detail/{id}', [ConsultingController::class, 'displaySelectedPsychologist'])->middleware('auth');
+Route::get('/consulting/{id}', [ConsultingController::class, 'displayPsychologist'])->middleware('auth');
+
+
 
 
 
@@ -20,9 +31,9 @@ Route::get('/', function () {
     return view('landingPage');
 })->name('landingPage');
 
-Route::get('/consulting', function () {
-    return view('consulting');
-});
+// Route::get('/consulting', function () {
+//     return view('consulting');
+// });
 
 Route::get('/consulting-2', function () {
     return view('consulting-2');
@@ -40,21 +51,21 @@ Route::get('/consulting-5', function () {
     return view('consulting-5');
 });
 
-Route::get('/journaling', function () {
-    return view('journaling');
-});
+// Route::get('/journaling', function () {
+//     return view('journaling');
+// });
 
 Route::get('/journaling-2', function () {
     return view('journaling-2');
 });
 
-Route::get('/meditation', function () {
-    return view('meditation');
-});
+// Route::get('/meditation', function () {
+//     return view('meditation');
+// });
 
 Route::get('/login', function () {
     return view('login');
-});
+})->name('login');
 
 Route::get('/register', function () {
     return view('register');
@@ -63,6 +74,5 @@ Route::get('/register', function () {
 Route::post('/register','RegistrationController@store');
 
 Route::post('/login', 'LoginRegistration@authenticate');
-
 
 Route::get('/logout', 'LoginRegistration@logout');

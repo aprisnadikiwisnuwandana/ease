@@ -16,7 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <link href="/css/main.css" rel="stylesheet" >
+    <link href={{asset("/css/main.css")}} rel="stylesheet" >
     @yield('css')
     @yield('js')
 
