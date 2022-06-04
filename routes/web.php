@@ -22,6 +22,16 @@ Route::get('/consulting', [ConsultingController::class, 'displayPsychologistPage
 Route::get('/consulting/search', [ConsultingController::class, 'searchPsychologist'])->middleware('auth');
 Route::get('/consulting/detail/{id}', [ConsultingController::class, 'displaySelectedPsychologist'])->middleware('auth');
 Route::get('/consulting/{id}', [ConsultingController::class, 'displayPsychologist'])->middleware('auth');
+Route::post('/consulting/payment/{id}', [ConsultingController::class, 'submitPaymentDetail'])->middleware('auth');
+Route::get('/consulting/payment/{id}', [ConsultingController::class, 'displayPaymentDetail'])->middleware('auth');
+Route::post('/consulting/payment/proof/{id}', [ConsultingController::class, 'submitProofOfPayment'])->middleware('auth');
+Route::get('/consulting/schedule/{id}', [ConsultingController::class, 'displaySchedulePage'])->middleware('auth');
+Route::post('/consulting/schedule/{id}', [ConsultingController::class, 'submitSchedule'])->middleware('auth');
+Route::get('/consulting/confirm/{id}', [ConsultingController::class, 'displayConfirmationPage'])->middleware('auth');
+Route::post('/consulting/accept/{id}', [ConsultingController::class, 'acceptConsulting'])->middleware('auth');
+Route::post('/consulting/decline/{id}', [ConsultingController::class, 'declineConsulting'])->middleware('auth');
+
+
 
 
 
