@@ -40,8 +40,8 @@ Route::get('/journaling/write/{id}', [JournalingController::class, 'writeJournal
 Route::post('/journaling/submit/{id}', [JournalingController::class, 'submitJournal'])->middleware('auth');
 Route::post('/journaling/update/{id}', [JournalingController::class, 'updateJournal'])->middleware('auth');
 
-Route::get('/meditation', [MeditationController::class, 'displayMeditationPage']);
-Route::get('/meditation/search', [MeditationController::class, 'searchMeditation']);
+Route::get('/meditation', [MeditationController::class, 'displayMeditationPage'])->middleware('auth');
+Route::get('/meditation/search', [MeditationController::class, 'searchMeditation'])->middleware('auth');
 
 
 
