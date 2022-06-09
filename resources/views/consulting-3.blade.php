@@ -45,6 +45,9 @@
                     <option value="Sosial">Sosial</option>
                     <option value="Lainnya">Lainnya</option>
                 </select>
+                @error('topic')
+                <p class="text-danger">Select one of the option</p>
+                @enderror
             </div>
             <br>
             <div class="search d-flex flex-column justify-content-center">
@@ -59,6 +62,9 @@
                     <option value="Special Package (45 min) Rp 110.000">Special Package <span class="d-block">(45 min)</span> <p class="d-block">Rp 110.000</p></option>
                     <option value="Premium Package (60 min) Rp 120.000">Premium Package <span class="d-block">(60 min)</span> <p class="d-block">Rp 120.000</p></option>
                 </select>
+                @error('package')
+                <p class="text-danger">Select one of the option</p>
+                @enderror
             </div>
         <br>
         <div class="text-center">

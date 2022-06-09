@@ -15,11 +15,10 @@
                 <br>
                 <h2>Welcome to</h2>
                 <h1>Ease</h1>
-                <button style="width: 561px" class="google "> <img  style="width: 32px;" src="/images/google.png" alt=""> <span>Login with Google</span> </button>
-                <p class="text-center" style="color:black;">OR</p>
+
                 <form action="/login" method="post">
                     {{ csrf_field() }}
-                <div class="input-group mb-3">
+                <div class="input-group mb-3 mt-5">
                     <input name="email" type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div class="input-group mb-3">

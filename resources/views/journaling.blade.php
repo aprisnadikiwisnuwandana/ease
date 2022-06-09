@@ -25,6 +25,10 @@
     <div class="container journaling">
         <h2><b>Top Picks</b></h2>
         <div class="row mt-4">
+
+@if ($templatejournal->isEmpty())
+<h1 class="text-center mt-1 text-muted">Not Found</h1>
+@endif
             @foreach ($templatejournal as $j)
             <div class="col">
                 <a href={{'/journaling/write/' . $j->id}}>
@@ -74,6 +78,10 @@
             <h2><b>Your Journal</b></h2>
             <br>
             <div class="row">
+
+@if ($journal->isEmpty())
+<h1 class="text-center mt-1 text-muted">Not Found</h1>
+@endif
                 @foreach ($journal as $j)
                 <div class="col">
                     <a href={{'/journaling/write/' . $j->id}}>

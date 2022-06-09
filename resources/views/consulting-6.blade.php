@@ -42,8 +42,8 @@
     <form action={{'/consulting/accept/' . $paymentdetail->id}} method="post">
         @csrf
     <div class="text-center">
-        <button type="submit" formaction={{'/consulting/decline/' . $paymentdetail->id}} class="btn btn-danger">Decline</a>
-        <button type="submit" class="btn btn-success">Confirm</a>
+        <button class="mx-2" type="submit" formaction={{'/consulting/decline/' . $paymentdetail->id}} class="btn btn-danger">Decline</a>
+        <button class="mx-2" type="submit" class="btn btn-success">Confirm</a>
     </div>
     </form>
 

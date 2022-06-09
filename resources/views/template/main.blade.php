@@ -47,12 +47,6 @@
                 <p>Login/Sign Up</p>
             </div>
             <div class="col">
-                <h5 class="mb-4"><b>OUR SERVICES</b></h5>
-                <p>Consulting</p>
-                <p>Journaling</p>
-                <p>Meditation</p>
-            </div>
-            <div class="col">
                 <h5 class="mb-4"><b>CONTACT</b></h5>
                 <p>aprisnadiki@gmail.com</p>
                 <p>jihaanharvi@gmail.com</p>

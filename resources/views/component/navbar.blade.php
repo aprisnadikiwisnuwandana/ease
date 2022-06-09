@@ -7,11 +7,18 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto text-center text-left-md ">
           <li class="nav-item home" style="color: #1F1534;">
-            <a class="nav-link px-0 pe-md-5" href="/#">Home</a>
+            <a class="nav-link px-0 pe-md-4" href="/#">Home</a>
           </li>
-          <li class="nav-item service">
-            <a class="nav-link px-0 pe-md-5" href="#">Our Services <img src="/images/Vector.png" alt=""> </a>
-          </li>
+          <div class="dropdown px-0 pe-md-4">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Services
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="/consulting">Consulting</a></li>
+              <li><a class="dropdown-item" href="/journaling">Journaling</a></li>
+              <li><a class="dropdown-item" href="/meditation">Meditation</a></li>
+            </ul>
+          </div>
           @auth
           <div class="dropdown">
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

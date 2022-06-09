@@ -23,8 +23,12 @@ class JournalingController extends Controller
 
     public function searchJournaling(Request $request)
     {
+        $templatejournal = DB::table('journaling')->where('name', 'like', '%' . $request->name . '%')->where('isTemplate', true)->get();
         $journal = DB::table('journaling')->where('name', 'like', '%' . $request->name . '%')->get();
-        return view('journaling', ['journal' => $journal]);
+        return view('journaling', [
+            'journal' => $journal,
+            'templatejournal' => $templatejournal
+        ]);
     }
 
     public function writeJournal($id)

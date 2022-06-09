@@ -30,13 +30,6 @@
 }
 
 
-.dropdown button {
-    background: #FFFFFF;
-    border: 1px solid #898A8D;
-    border-radius: 10px;
-    color: #000000;
-}
-
 .dropdown button:hover {
     background: #FFFFFF;
     border: 1px solid #898A8D;
@@ -44,7 +37,7 @@
     color: #000000;
 }
 
-.text-center button {
+.consulting-3 button {
     font-weight: 700;
     font-size: 19px;
     width: 170px;

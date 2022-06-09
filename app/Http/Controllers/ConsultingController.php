@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class ConsultingController extends Controller
 {
-    public function displayPsychologistPage()
+    public function displayConsultingPage()
     {
         $psychologist = DB::table('psychologist')->get();
         return view('consulting', ['psychologist' => $psychologist]);
@@ -26,14 +26,19 @@ class ConsultingController extends Controller
         return view('consulting-2', ['psychologist' => $psychologist]);
     }
 
-    public function displayPsychologist($id)
+    public function displayFormPage($id)
     {
         $psychologist = DB::table('psychologist')->where('id', $id)->first();
         return view('consulting-3', ['psychologist' => $psychologist]);
     }
 
-    public function submitPaymentDetail(Request $request, $id)
+    public function submitFormPage(Request $request, $id)
     {
+        $validated = $request->validate([
+            'topic' => 'required',
+            'package' => 'required',
+        ]);
+
         $paymentid = DB::table('consulting')->insertGetId([
             'user_id' => 1,
             'psychologist_id' => $request->psychologist_id,

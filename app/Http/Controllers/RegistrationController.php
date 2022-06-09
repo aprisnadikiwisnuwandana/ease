@@ -38,13 +38,14 @@ class RegistrationController extends Controller
 
         $validated = $request->validate([
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|email|unique:users',
             'username' => 'required',
             'password' => 'required',
             'passwordConfirmation' => 'required',
         ]);
 
         $validated['password'] = Hash::make($validated['password']);
+
 
         $user = new User();
 

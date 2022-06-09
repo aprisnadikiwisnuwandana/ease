@@ -21,4 +21,12 @@ class MeditationController extends Controller
         $meditation = DB::table('meditation')->where('name', 'like', '%' . $request->name . '%')->get();
         return view('meditation', ['meditation' => $meditation]);
     }
+
+    public function displayMeditationSound($id)
+    {
+        $meditation = DB::table('meditation')->where('id', $id)->first();
+        return view('meditation-2', [
+            'meditation' => $meditation,
+        ]);
+    }
 }

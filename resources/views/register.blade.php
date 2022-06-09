@@ -17,13 +17,12 @@
                  {{ csrf_field() }}
                 <br>
                 <h1>Create Account</h1>
-                <button style="width: 561px" class="google"> <img  style="width: 32px;" src="/images/google.png" alt=""> <span>Sign up with Google</span> </button>
-                <p style="color:black;" class="text-center">OR</p>
-                <div class="input-group mb-3">
+                <div class="input-group mb-3 mt-5">
                     <input type="text" name="name" class="form-control" placeholder="Full Name" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <div class="input-group mb-3">
                     <input type="email" name="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                    @error('email') <span class="text-danger error">{{ $message }}</span>@enderror
                 </div>
                 <div class="input-group mb-3">
                     <input type="text" name="username" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
@@ -35,7 +34,7 @@
                     <input type="password" name="passwordConfirmation" class="form-control" placeholder="Confirm Password" aria-label="Username" aria-describedby="basic-addon1">
                 </div>
                 <br>
-                 <button type="submit" class=" mb-3">Register</button>
+                 <button type="submit" class=" mb-2">Register</button>
                   <p>Already have an account? <a href="/login"> Log in </a></p>
 
                 </form>

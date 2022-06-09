@@ -21,11 +21,11 @@ use App\Http\Controllers\MeditationController;
 
 
 
-Route::get('/consulting', [ConsultingController::class, 'displayPsychologistPage'])->middleware('auth');
+Route::get('/consulting', [ConsultingController::class, 'displayConsultingPage'])->middleware('auth');
 Route::get('/consulting/search', [ConsultingController::class, 'searchPsychologist'])->middleware('auth');
 Route::get('/consulting/detail/{id}', [ConsultingController::class, 'displaySelectedPsychologist'])->middleware('auth');
-Route::get('/consulting/{id}', [ConsultingController::class, 'displayPsychologist'])->middleware('auth');
-Route::post('/consulting/payment/{id}', [ConsultingController::class, 'submitPaymentDetail'])->middleware('auth');
+Route::get('/consulting/{id}', [ConsultingController::class, 'displayFormPage'])->middleware('auth');
+Route::post('/consulting/payment/{id}', [ConsultingController::class, 'submitFormPage'])->middleware('auth');
 Route::get('/consulting/payment/{id}', [ConsultingController::class, 'displayPaymentDetail'])->middleware('auth');
 Route::post('/consulting/payment/proof/{id}', [ConsultingController::class, 'submitProofOfPayment'])->middleware('auth');
 Route::get('/consulting/schedule/{id}', [ConsultingController::class, 'displaySchedulePage'])->middleware('auth');
@@ -42,6 +42,8 @@ Route::post('/journaling/update/{id}', [JournalingController::class, 'updateJour
 
 Route::get('/meditation', [MeditationController::class, 'displayMeditationPage'])->middleware('auth');
 Route::get('/meditation/search', [MeditationController::class, 'searchMeditation'])->middleware('auth');
+Route::get('/meditation/sound/{id}', [MeditationController::class, 'displayMeditationSound'])->middleware('auth');
+
 
 
 

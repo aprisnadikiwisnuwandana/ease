@@ -56,6 +56,9 @@
               </div>
         </div> --}}
 
+@if ($psychologist->isEmpty())
+<h1 class="text-center mt-1 text-muted">Not Found</h1>
+@endif
 
         <div class="row mt-5">
             @foreach ($psychologist as $p)
